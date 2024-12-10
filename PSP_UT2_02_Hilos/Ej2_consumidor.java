@@ -22,7 +22,7 @@ public class Ej2_consumidor extends Thread{
                     int numero = cola.get();
                     producto_total = producto_total * numero;
                     System.out.println("*** Consumidor "+id+" producto total: " + producto_total);
-                    Thread.sleep(100); // Simula el tiempo de consumo
+                    Thread.sleep(500); // Simula el tiempo de consumo
                 }
             }
             else
